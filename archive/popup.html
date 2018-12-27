@@ -1,0 +1,74 @@
+<html>
+
+<head>
+  <script type="text/javascript" src="speedreader.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="speedreader.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <title>SpeedReader</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="header">
+      <!-- <img class="logo-icon" src="icon_128.png"> -->
+      <h2>SpeedReader: Reading Helper</h2>
+      <h3></h3>
+    </div>
+
+    <h3>Highlight text you want to SpeedRead</h3>
+    <div id="read-view">&nbsp;</div>
+    <div>
+      <!-- <table align="center">
+        <tr>
+          <td>Speed (ms):</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><input id="text-speed" type="number" value="135" /></input></td>
+          <td><button id="highlightedTextButton">Read Highlighted Text</button></td>
+        </tr>
+      </table> -->
+
+      <!-- <h4>Or, paste the text you want to SpeedRead below:</h4> -->
+      <textarea id="text-input" name="text" rows="14" cols="10" wrap="soft"></textarea>
+   
+      <div class="counter">
+        <div id="currentParagraph">0</div>
+        <div>/</div>
+        <div id="totalNumberOfParagraphs">0</div>
+      </div>
+      <div class="controls">
+      
+        <img class="icon scrub" id="begin" src="/images/begin.png">
+        <img class="icon scrub" id="rewind" src="/images/rewind.png">
+        <img class="icon scrub" width="12px" height="26px" id="play" src="/images/play.png">
+        <img class="icon scrub" id="ff" src="/images/ff.png">
+        <img class="icon scrub" id="end" src="/images/end.png">
+ 
+
+    </div>
+    </div>
+    <table align="center">
+      <tr>
+        <td>Speed (ms):</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><input id="text-speed" type="number" value="135" /></input></td>
+        <td><button id="textareaButton">Read Text</button></td>
+      </tr>
+    </table>
+    <p>&copy; Pillbox Media, Inc. <a href="https://www.github.com/pillboxmediainc" target="_blank">
+        <i class="fa fa-github"></i>
+      </a></p>
+    <div id="footer">
+      <a href="/info.html" onclick="window.open('../html-link.htm','name','width=600,height=400')">
+        <img class="icon info" src="/info.png">
+      </a>
+
+    </div>
+  </div>
+</body>
+
+</html>

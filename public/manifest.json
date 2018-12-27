@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "SPEEDREADER+",
+  "description": "Read highlighted text on any webpage one word at a time with a specified time interval (ms).",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon_16.png",
+    "32": "icon_32.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png",
+    "256": "icon_256.png"
+  },
+  "browser_action": {
+    "default_icon": "icon_32.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"],
+  "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'"
+}
